@@ -1,0 +1,115 @@
+------------------------------------------------------
+Data de Requisicao: Sat Apr 01 09:05:09 BRT 2023 GMT 
+ENDEREÇO DE ORIGEM:PORTA: /[0:0:0:0:0:0:0:1]:80
+Conteúdo Requisitado: GET /index.html HTTP/1.1
+Host: localhost
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-76dee25c=76bffc60-f32c-48f6-b20d-84d70949759f
+
+Quantidade de bytes transmitidos: 51
+------------------------------------------------------
+
+------------------------------------------------------
+Data de Requisicao: Sat Apr 01 09:05:09 BRT 2023 GMT 
+ENDEREÇO DE ORIGEM:PORTA: /[0:0:0:0:0:0:0:1]:80
+Conteúdo Requisitado: GET /favicon.ico HTTP/1.1
+Host: localhost
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost/index.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-76dee25c=76bffc60-f32c-48f6-b20d-84d70949759f
+
+Quantidade de bytes transmitidos: 167
+------------------------------------------------------
+
+------------------------------------------------------
+Data de Requisicao: Sat Apr 01 09:05:16 BRT 2023 GMT 
+ENDEREÇO DE ORIGEM:PORTA: /[0:0:0:0:0:0:0:1]:80
+Conteúdo Requisitado: GET /index.php HTTP/1.1
+Host: localhost
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-76dee25c=76bffc60-f32c-48f6-b20d-84d70949759f
+
+Quantidade de bytes transmitidos: 90
+------------------------------------------------------
+
+------------------------------------------------------
+Data de Requisicao: Sat Apr 01 09:06:02 BRT 2023 GMT 
+ENDEREÇO DE ORIGEM:PORTA: /[0:0:0:0:0:0:0:1]:80
+Conteúdo Requisitado: GET /index.php/6 HTTP/1.1
+Host: localhost
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-76dee25c=76bffc60-f32c-48f6-b20d-84d70949759f
+
+Quantidade de bytes transmitidos: 167
+------------------------------------------------------
+
+------------------------------------------------------
+Data de Requisicao: Sat Apr 01 09:06:03 BRT 2023 GMT 
+ENDEREÇO DE ORIGEM:PORTA: /[0:0:0:0:0:0:0:1]:80
+Conteúdo Requisitado: GET /index.php/6 HTTP/1.1
+Host: localhost
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Idea-76dee25c=76bffc60-f32c-48f6-b20d-84d70949759f
+
+Quantidade de bytes transmitidos: 167
+------------------------------------------------------
+
