@@ -5,11 +5,9 @@ import java.io.InputStreamReader;
 
 public class PHP {
 
-    public static String exec(String file, String[] parametros){
+    public static String exec(String file){
         try{
-
-            String cmd = "C:\\xampp\\php\\php.exe" + file + " " + String.join(" ", parametros);
-            System.out.println(cmd);
+            String cmd = "C:\\xampp\\php\\php.exe" + " " + file;
             Process processo = Runtime.getRuntime().exec(cmd);
             BufferedReader br = new BufferedReader(new InputStreamReader(processo.getInputStream()));
 
@@ -21,7 +19,7 @@ public class PHP {
             return ret;
         }catch(Exception e){
             e.printStackTrace();
-            return "!Erro ao interpretar o arquivo php:"+ file;
+            return "!Erro ao interpretar o arquivo php: "+ file;
         }
     }
 }

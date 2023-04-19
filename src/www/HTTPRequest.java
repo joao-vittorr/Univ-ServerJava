@@ -63,14 +63,6 @@ final class HttpRequest implements Runnable {
         // pula método mostrado na requisicao (GET, POST)
         String metodo = requisicao.nextToken();
         String arquivo = requisicao.nextToken();
-        String[] parametros = {};
-
-
-        if (arquivo.contains("?")) {
-            String[] parts = arquivo.split("\\?");
-            arquivo = parts[0];
-            parametros = parts[1].split("=|;");
-        }
 
 
         // Acrescente um "." de modo que a requisi��o do arquivo
@@ -105,35 +97,15 @@ final class HttpRequest implements Runnable {
                         + "<BODY> Arquivo Nao Encontrado </BODY></HTML>";
             }
 
-
             // Enviar a linha de status
             dos.writeBytes(linhaStatus);
             dos.writeBytes(linhaContentType);
             dos.writeBytes(CRLF);
         }
-        // tratamento quando a requisicao for POST
-		/*else if (metodo.equals("POST")) {
-			char[] buffer = new char[2048];
-			String corpo = "";
-			String corpoPost = "";
-			while (br.ready()) {
-				int i;
-				if ((i = br.read(buffer)) > 0)
-					corpo = corpo + (new String(buffer, 0, i) + "\n");
-				corpoPost = corpoPost + (new String(buffer, 0, i) + "<BR>");
-				System.out.println(corpo);
-			}
-			corpo = "CORPO ENVIADO PELO POST: " + corpo;
-			log = log + corpo;
-			msgHtml = "<HTML><HEAD><TITLE> MENSAGEM POST </TITLE></HEAD>"
-					+ "<BODY> MENSAGEM ENVIADA PELO POST: </BR>" + corpoPost + "</BODY></HTML>";
-			existeArq = false;
-		}*/
-
 
         if (existeArq) {
             if (arquivo.endsWith(".php")) {
-                String html = PHP.exec(arquivo,parametros);
+                String html = PHP.exec(arquivo);
                 dos.writeBytes(html);
             } else {
                 sendBytes(fis, dos);
